@@ -1,0 +1,47 @@
+target/
+*.log
+*.tmp
+*.out
+*.class
+*.jar
+*.war
+*.ear
+
+.mvn/
+.mvnd/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+*.launch
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+application-local.properties
+application-*.yml
+
+# Build tools
+build/
+.gradle/
+
+# Logs and databases
+logs/
+*.db
+
+# Docker
+docker-data/
+*.pid
+
+# Kubernetes
+*.yaml.swp
+
+# Maven wrapper
+mvnw
+mvnw.cmd
